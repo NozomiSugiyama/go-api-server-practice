@@ -1,8 +1,8 @@
 package server
 
 import (
-	"net/http"
 	"github.com/NozomiSugiyama/go-api-server-practice/server/handler"
+	"net/http"
 )
 
 type Route struct {

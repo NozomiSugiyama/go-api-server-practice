@@ -1,9 +1,9 @@
 package server
 
 import (
+	"github.com/urfave/negroni"
 	"net/http"
 	"strconv"
-	"github.com/urfave/negroni"
 )
 
 func StartServer(host string, port int) error {
