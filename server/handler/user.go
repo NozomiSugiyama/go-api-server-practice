@@ -12,12 +12,15 @@ func UserList(w http.ResponseWriter, r *http.Request) {
 	users, err := model.GetUsers()
 
 	if err != nil {
-		panic(err)
+		// panic(err)
+		http.NotFound(w, r)
+		return
 	}
 
 	if err := json.NewEncoder(w).Encode(users); err != nil {
 		panic(err)
 	}
+
 }
 
 func UserShow(w http.ResponseWriter, r *http.Request) {
@@ -25,7 +28,9 @@ func UserShow(w http.ResponseWriter, r *http.Request) {
 	user, err := model.GetUser(vars["id"])
 
 	if err != nil {
-		panic(err)
+		// panic(err)
+		http.NotFound(w, r)
+		return
 	}
 
 	if err := json.NewEncoder(w).Encode(user); err != nil {
