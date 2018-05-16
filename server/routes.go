@@ -2,8 +2,7 @@ package server
 
 import (
 	"net/http"
-
-	"github.com/NozomiSugiyama/wcdi-userstore/server/handler"
+	"github.com/NozomiSugiyama/go-api-server-practice/server/handler"
 )
 
 type Route struct {

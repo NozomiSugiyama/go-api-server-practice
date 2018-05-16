@@ -1,8 +1,8 @@
 package cmd
 
 import (
+	"github.com/NozomiSugiyama/go-api-server-practice/server"
 	"github.com/spf13/cobra"
-	"github.com/NozomiSugiyama/wcdi-userstore/server"
 )
 
 func init() {

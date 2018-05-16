@@ -26,10 +26,6 @@
 
 
 [[constraint]]
-  branch = "develop"
-  name = "github.com/NozomiSugiyama/wcdi-userstore"
-
-[[constraint]]
   name = "github.com/gorilla/mux"
   version = "1.6.2"
 

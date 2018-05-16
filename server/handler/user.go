@@ -3,7 +3,8 @@ package handler
 import (
 	"encoding/json"
 	"net/http"
-	"github.com/NozomiSugiyama/wcdi-userstore/server/model"
+
+	"github.com/NozomiSugiyama/go-api-server-practice/server/model"
 	"github.com/gorilla/mux"
 )
 

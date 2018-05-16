@@ -10,8 +10,8 @@ import (
 var cfgFile string
 
 var RootCmd = &cobra.Command{
-	Use:   "wcdi-userstore",
-	Short: "wcdi userstore service",
+	Use:   "go-api-server-practice",
+	Short: "go api server practice",
 }
 
 func init() {
@@ -23,7 +23,7 @@ func initConfig() {
 		viper.SetConfigFile(cfgFile)
 	}
 
-	viper.SetConfigName(".wcdi-userstore")
+	viper.SetConfigName(".go-api-server-practice")
 	viper.AddConfigPath("$HOME")
 	viper.AutomaticEnv()
 

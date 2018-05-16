@@ -2,16 +2,6 @@
 
 
 [[projects]]
-  branch = "develop"
-  name = "github.com/NozomiSugiyama/wcdi-userstore"
-  packages = [
-    "server",
-    "server/handler",
-    "server/model"
-  ]
-  revision = "2844eb831ad362bf900e47099c58844047e8ad53"
-
-[[projects]]
   name = "github.com/fsnotify/fsnotify"
   packages = ["."]
   revision = "c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9"
@@ -155,6 +145,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "b8a017e271c3cd04e54b68724c6f69b190decd8bf55b5c8d6837d971c0b967d1"
+  inputs-digest = "f39522ed0aadf8a19226803ddc8f512cdbf9f9e2bf66be00dd11d0cee289d968"
   solver-name = "gps-cdcl"
   solver-version = 1
